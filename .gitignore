@@ -1,0 +1,8 @@
+.idea
+common/config/main-local.php
+common/config/main-local.php.bak
+frontend/controllers/TestController.php
+frontend/views/test
+backend/web/uploads
+frontend/web/uploads
+

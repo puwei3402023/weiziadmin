@@ -1,0 +1,123 @@
+.f_content {
+    width: 80%;
+    margin: 50px 0 0 60px;
+    padding: 0;
+    text-align: center;
+}
+input, select, textarea, button {
+    font-family: "Microsoft YAHEI";
+}
+input, select, textarea {
+    font-family: "Microsoft Yahei";
+    line-height: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+}
+input[type=text], input[type=password], select, textarea {
+    color: #262626;
+    outline: none;
+    font-size: 14px;
+}
+input.input-large, select.input-large, textarea.input-large {
+    width: 300px;
+    font-size: 14px;
+}
+/* @media all and (min-width:1280px) */
+input.input-large, select.input-large, textarea.input-large {
+    width: 230px;
+    font-size: 14px;
+}
+/* @media all and (min-width:1366px) */
+input.input-large, select.input-large, textarea.input-large {
+    width: 230px;
+    font-size: 14px;
+}
+input[type=text].normal, input[type=datetime].normal, input[type=unumbers].normal, input[type=number].normal, input[type=date].normal, input[type=email].normal, input[type=password].normal, select, textarea {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .14);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-repeat: stretch;
+    vertical-align: middle;
+    -webkit-transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    -o-transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    transition-property: border-color, box-shadow;
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+}
+/* @media all and (min-width:1280px) */
+input[type=text].normal, input[type=datetime].normal, input[type=unumbers].normal, input[type=number].normal, input[type=date].normal, input[type=email].normal, input[type=password].normal, select, textarea {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .14);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-repeat: stretch;
+    vertical-align: middle;
+    -webkit-transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    -o-transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    transition-property: border-color, box-shadow;
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+}
+/* @media all and (min-width:1366px) */
+input[type=text].normal, input[type=datetime].normal, input[type=unumbers].normal, input[type=number].normal, input[type=date].normal, input[type=email].normal, input[type=password].normal, select, textarea {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .14);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-repeat: stretch;
+    vertical-align: middle;
+    -webkit-transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    -o-transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    transition: border-color ease-in-out .4s, box-shadow ease-in-out .4s;
+    transition-property: border-color, box-shadow;
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+}
+.clear10 {
+    clear: both;
+    width: 100%;
+    height: 10px;
+    overflow: hidden;
+}
+.offset01 {
+    margin-left: 20px;
+}
+.button {
+    border-radius: 3px;
+    border: 0;
+    background: #145aa2;
+    color: #fff;
+    padding: 8px 28px;
+    transition: .3s all;
+}
+input[type=button], input[type=submit], button {
+    cursor: pointer;
+    outline: none;
+}

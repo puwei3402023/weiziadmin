@@ -1,0 +1,50 @@
+
+/**
+
+LOGIN STYLE
+
+**/
+
+@charset "utf-8";
+* {
+    margin: 0px ;
+    padding: 0px ;
+    text-decoration: none ;
+    list-style: none;
+    font-size: 18px ;
+    font-family: 微软雅黑 ;
+}
+
+/**login**/
+
+.login_title{text-align: center;margin-top: 30px;font-size:26px;}
+.login_body{background: transparent; background:#f5f5f5;background-attachment:fixed;background-repeat:no-repeat;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;}
+.login_div{width:480px;height:480px; top: 50%; left: 50%; color: #145aa2; margin-top:-240px;margin-left: -240px; position:fixed; z-index: 9999; background: #fff;border:1px solid #ececec;padding:40px 10px 20px 10px;}
+.login_nav{margin-top: 118px;text-align: center}
+.login_username{text-align: right; height: 40px; line-height: 40px; font-size: 16px; font-weight: bold;}
+.login_usernameInput{height: 40px; padding: 0px;text-align: center}
+#name,#psd{font-size: 14px;padding:0 14px; height: 40px; outline: 0px; border-radius: 5px; }
+.ok_gou{height: 40px; color: #5CB85C; font-size: 35px; display: none; text-align: center; border-radius: 10px;padding: 0px; line-height: 37px; border: 2px solid  #5CB85C;}
+.error_cuo{height: 40px; color: red; font-size: 40px;  display: none; text-align: center; border-radius: 10px;padding: 0px; line-height: 30px; border: 2px solid red;}
+.login_psdNav{margin-top: 30px;}
+.login_psdNav .col-xs-4{text-align: right; height: 40px; line-height: 40px; font-size: 18px; font-weight: bold;}
+.login_psdNav .col-xs-6{height: 40px; padding: 0px;}
+.login_btn_div{text-align: center; margin-top: 64px;}
+#login{outline: 0px; border: 0px; width: 340px; height: 40px; border-radius: 5px; color: white;  font-size: 20px;}
+
+.sub_btn:hover{background: #124079;}
+.sub_btn{background: #145aa2;transition: all .4s;}
+input[type=text]:focus,[type=password]:focus,[type=datetime]:focus,input[type=password]:focus,select:focus,textarea:focus {
+	border: 1px solid #6598d2;
+	outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
